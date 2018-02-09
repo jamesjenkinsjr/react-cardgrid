@@ -14,6 +14,35 @@ class App extends Component {
           src: 'https://via.placeholder.com/150x150',
           caption: 'Wow wow wow wow wow wow wow wow',
           isLiked: false
+        },
+        {
+          src: 'https://via.placeholder.com/150x150',
+          caption: 'Wow wow wow wow wow wow wow wow',
+          isLiked: false
+        },
+        {
+          src: 'https://via.placeholder.com/150x150',
+          caption: 'Wow wow wow wow wow wow wow wow',
+          isLiked: false
+        },
+        {
+          src: 'https://via.placeholder.com/150x150',
+          caption: 'Wow wow wow wow wow wow wow wow',
+          isLiked: false
+        },
+        {
+          src: 'https://via.placeholder.com/150x150',
+          caption: 'Wow wow wow wow wow wow wow wow',
+          isLiked: false
+        },
+        {
+          src: 'https://via.placeholder.com/150x150',
+          caption: 'Wow wow wow wow wow wow wow wow',
+          isLiked: false
+        },{
+          src: 'https://via.placeholder.com/150x150',
+          caption: 'Wow wow wow wow wow wow wow wow',
+          isLiked: false
         }
       ]
     }

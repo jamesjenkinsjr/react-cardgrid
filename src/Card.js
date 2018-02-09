@@ -2,11 +2,17 @@ import React, { Component } from 'react';
 
 class Card extends Component {
     render() {
+        let style;
+        if(this.props.isLiked) {
+            style = {color: 'skyblue'};
+        } else {
+            style = {color: 'grey'};
+        }
         return (
-            <div className="col-md-3">
+            <div className="col-md-3 my-1">
                 <img src={this.props.src} alt={this.props.caption} />
                 <p>{this.props.caption}</p>
-                <img src="https://via.placeholder.com/20x20" alt="heart" />
+                <i alt="heart" className="fa fa-heart" aria-hidden="true" style={style} />
             </div>
         );
     }
